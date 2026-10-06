@@ -7,7 +7,7 @@ const links = ['Livraison', 'Conditions de vente', 'Confidentialité', 'Instagra
     <div class="row">
       <button v-for="l in links" :key="l" type="button">{{ l }}</button>
     </div>
-    <small>© 2026 Arcana Cards – Tous droits réservés</small>
+    <small>© 2026 Arcana Cards – Tous droits réservés. Bienvenue dans l'univers des cartes !</small>
   </footer>
 </template>
 
